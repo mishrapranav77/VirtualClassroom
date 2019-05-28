@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "300691219505",
+    "firebase_url": "https://virtual-classroom-3fa78.firebaseio.com",
+    "project_id": "virtual-classroom-3fa78",
+    "storage_bucket": "virtual-classroom-3fa78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300691219505:android:ff4a62ecfa6ecc18",
+        "android_client_info": {
+          "package_name": "com.example.virtualclassroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300691219505-fl5tegqi132u4jmevoa0tfdjmhpffvp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.virtualclassroom",
+            "certificate_hash": "593156b79c61daa30af555a66146c5947d397d3f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCrD7P1B5sM6CdSIY_0xF8gZs6OxldPD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300691219505-ma9ba8mt3fjpcd5vio43uu3f7q4l4k8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

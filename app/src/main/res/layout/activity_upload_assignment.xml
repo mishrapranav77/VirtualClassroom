@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/classroom"
+    tools:context=".UploadAssignmentActivity">
+
+    <Button
+        android:layout_marginTop="200dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="select file"
+        android:background="@drawable/edit_round"
+        android:id="@+id/select_assignment"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No file selected"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/file_info2"/>
+
+    <Button
+        android:layout_marginTop="400dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="upload"
+        android:background="@drawable/edit_round"
+        android:id="@+id/upload_assignments"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

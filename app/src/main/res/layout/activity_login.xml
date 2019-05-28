@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/classroom"
+    android:orientation="vertical"
+    tools:context=".UploadLectureActivity">
+
+
+    <EditText
+        android:id="@+id/UserName"
+        android:hint="UserName"
+        android:textColorHint="@android:color/black"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="70dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:textColorHint="@android:color/black"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="310dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:shadowColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"
+        android:text="login" />
+    <TextView
+        android:id="@+id/mRegister"
+        android:text="New User? Click Here To Sign Up"
+        android:textStyle="bold"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/attempt"
+        android:text="No of attempts left:"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="100dp"
+        />
+
+
+
+</RelativeLayout>
